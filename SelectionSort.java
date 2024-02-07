@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 import java.util.Scanner;
 
-class SelectionSort {
+public class SelectionSort {
 
     // Swapping two indices
     private void swap(int minIndex, int currIndex, LinkedList<Integer> arr) {

@@ -22,7 +22,7 @@ class BinarySearch {
         BinarySearch b = new BinarySearch();
         int arr[] = { 12, 23, 44, 110, 240 };
         int numberOfElements = arr.length;
-        int result = b.binarySearch(arr, 0, numberOfElements - 1, 240);
+        int result = b.binarySearch(arr, 0, numberOfElements - 1, 110);
         if (result == -1) {
             System.out.println("Element not found");
         } else {
